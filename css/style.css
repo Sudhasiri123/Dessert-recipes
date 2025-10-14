@@ -264,6 +264,9 @@ header .navbar {
 }
 
 .recipe-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: var(--snow-color);
     margin: 30px 10px;
     border-radius: 8px;
@@ -286,6 +289,7 @@ header .navbar {
 .recipe-card p{
     font-size: 18px;
     padding: 20px;
+    flex-grow: 1;
 }
 
 .recipe-card a{
@@ -384,7 +388,7 @@ header .navbar {
         flex-direction: column;
         align-items: center;
         padding-top: 100px;
-        background: var(--snow-color);
+        background: var(--cotton-candy-color);
         transition: left 0.2s ease;
     }
 
